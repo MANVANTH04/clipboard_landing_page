@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Bai Jamjuree', sans-serif
+}
+
+p{
+    font-size: 1.125rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    box-shadow: .35rem .35rem 1rem rgb(150, 150, 150);
+    color: white;
+}
+
+h2{
+    font-size: 2.25rem;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    color:hsl(210, 10%, 33%);
+    text-align: center;
+}
+
+header{
+    background-image: url(images/bg-header-desktop.png);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-2{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.btn-1{
+    background-color: hsl(171, 66%, 44%);
+    margin-left: 8rem;
+    margin-right: 1.5rem;
+}
+
+.main{
+    width: 43%;
+    height: auto;
+    padding-bottom: 5rem;
+}
+
+.main img{
+    /* padding: 5rem 0rem 3rem 11rem; */
+    display: block;
+    margin: 3rem auto;
+}
+
+/* SECTION-2 STARTS HERE */
+
+.snippets-heading{
+    width: 43%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+
+}
+
+.tracking-snippets{
+    margin-bottom: 4rem;
+}
+
+.content-1{
+    display: flex;
+}
+
+figcaption{
+    width: 20%;
+    height: auto;
+    padding-left: 5rem;
+}
+
+figure img{
+    margin-left: -5rem;
+}
+
+h3{
+    font-size: 1.75rem;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+
+.caption-1, .caption-2{
+    padding-bottom: 3.5rem;
+}
+
+/* SECTION-3 STARTS HERE */
+
+.access-anywhere figure {
+    padding-left: 18.5rem;
+}
+
+.access-anywhere {
+    margin-bottom: 4rem;
+}
+
+
+/* SECTION-4 STARTS HERE */
+
+.workflows{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.workflow-1 figcaption, .workflow-2 figcaption, .workflow-3 figcaption{
+    max-width: 27%;
+}
+
+.workflow-1 img{
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* companies */
+
+.companies{
+    display: flex;
+    width: 80%;
+    display: block;
+    margin: 6rem auto;
+}
+
+.companies img{
+    padding-right: 7rem;
+}
+
+.companies img:nth-child(5){
+    padding-right: 0rem;
+}
+
+.clipboard{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.clipboard a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    box-shadow: .35rem .35rem 1rem rgb(150, 150, 150);
+    color: white;
+}
+
+
+/* MEDIA QUIRES */
+
+@media(max-width: 600px) {
+
+    header{
+        background-image: url(images/bg-header-mobile.png);
+    }
+
+    h1, h2, h3{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 1.65rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .main{
+        width: 95%;
+    }
+
+    .snippets-heading{
+        width: 95%;
+        height: auto;
+        margin-bottom: 4rem;
+    }
+
+    .main img{
+        padding: 3rem 6.3rem ;
+    }
+
+    .workflow img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1.5rem;
+    }
+
+    .workflow{
+        padding-bottom: 2rem;
+    }
+
+    figcaption{
+        width: 80%;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .btn-1{
+        display: block;
+        max-width: 200px;
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: 0 auto;
+    }
+
+    .btn-2{
+        display: block;
+        max-width: 200px;
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: 1.5rem auto;
+    }
+
+    .content-1, .workflows{
+        display: block;
+    }
+
+    .access-anywhere img{
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .content-1 img{
+        max-width: 100%;
+        height: auto;   
+        margin: 0 auto;
+    }
+
+    .access-anywhere figure {
+        padding-left: 1.5rem;
+    }
+
+    .companies img{
+        padding-bottom: 4rem;
+        margin-left: 6.5rem;
+    }
+    
+    .companies{
+        display: block;
+        margin: 3rem 0rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} 
